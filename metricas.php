@@ -1,3 +1,9 @@
+<?php
+    require('clases/Conexion.php');
+    require('clases/Reporte.php');
+    $fecha = $_POST['fecha'];
+    echo $fecha;
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -11,7 +17,7 @@
 </head>
 <body>
     <div class="container rounded">
-        <h1 class="text-center">Metricas del dia: //día ingresado por el usuario//</h1>
+        <h1 class="text-center">Metricas del dia <?php echo $fecha;?></h1>
         <div class="row">
             <div class="col-md-4 border border-dark rounded text-center metrica1">
                 <h4 class="">Atenciones</h4>
