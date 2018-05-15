@@ -2,7 +2,6 @@
     require('clases/Conexion.php');
     require('clases/Reporte.php');
     $fecha = $_POST['fecha'];
-    echo $fecha;
 ?>
 <!DOCTYPE html>
 <html lang="es">
