@@ -1,7 +1,5 @@
 <?php
-    require('clases/Conexion.php');
-    require('clases/Reporte.php');
-    $fecha = $_POST['fecha'];
+    include('controlador/atencionDiarias.php');
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -16,7 +14,7 @@
 </head>
 <body>
     <div class="container rounded">
-        <h1 class="text-center">Metricas del dia <?php echo $fecha;?></h1>
+        <h1 class="text-center">Metricas del dia <?php/* echo $fecha;*/?></h1>
         <div class="row">
             <div class="col-md-4 border border-dark rounded text-center metrica1">
                 <h4 class="">Atenciones</h4>

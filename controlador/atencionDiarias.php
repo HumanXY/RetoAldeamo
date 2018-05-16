@@ -1,6 +1,6 @@
 <?php
-include '../clases/Conexion.php';
-include '../clases/Reporte.php';
+include('clases/Conexion.php');
+include('clases/Reporte.php');
 
 $objConexion = new Conexion();
 $objReporte = new Reporte();
