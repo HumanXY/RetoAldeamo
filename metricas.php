@@ -1,5 +1,5 @@
 <?php
-    include('controlador/atencionDiarias.php');
+    require('clases/Conexion.php');
 ?>
 <!DOCTYPE html>
 <html lang="es">
