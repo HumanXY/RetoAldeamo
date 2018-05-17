@@ -1,4 +1,5 @@
 <?php
+echo"hola1";
 include('clases/Conexion.php');
 include('clases/Reporte.php');
 
@@ -7,7 +8,7 @@ $objReporte = new Reporte();
 
 $conexion = $objConexion->conexion();
 
-$fecha = $_POST['fecha'];
+//$fecha = $_POST['fecha'];
 
 $datos = $objReporte->atencionesDiarias($fecha, $conexion);
 

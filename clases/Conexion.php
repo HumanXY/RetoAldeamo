@@ -7,8 +7,9 @@ class Conexion {
             echo "Que sad";
         }
         else{
-            echo "Coenxion exitosa";
+            echo "Conexion exitosa";
         }
         return $link;
     }
 }
+?>

@@ -1,5 +1,5 @@
 <?php
-    require('clases/Conexion.php');
+    include('controlador/');
 ?>
 <!DOCTYPE html>
 <html lang="es">

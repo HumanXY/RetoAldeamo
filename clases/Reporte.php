@@ -1,5 +1,4 @@
 <?php
-
 class Reporte {
     //metodo para la consulta de las atenciones diarias
     public function atencionesDiarias($fecha, $conexion) {
